@@ -5,7 +5,7 @@ if __name__ == '__main__':
     f3 = Fraction(8, 3)
 
     print("str f3")
-    print(f3.__str__())
+    print(f3)
     print("")
 
     print("mixed number f3")
@@ -45,6 +45,10 @@ if __name__ == '__main__':
 
     print("Boolean")
     print("_______")
+
+    print("eq")
+    print(Fraction(1, 4) == (Fraction(2, 8)))
+    print("")
 
     print("isZero")
     print(Fraction(0, 4).is_zero())
